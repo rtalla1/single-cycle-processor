@@ -159,21 +159,10 @@ gtkwave singlecycle.vcd
 
 ---
 
-Design Notes
+### Design Notes
 - This is a single-cycle design: all instructions complete in one clock cycle.
 - No pipelining, forwarding, or hazard handling is implemented.
 - The design prioritizes clarity and correctness over performance.
 - Intended for simulation and architectural understanding, not synthesis.
 
----
-
-Educational Purpose
-
-This project demonstrates:
-- CPU datapath construction
-- Control signal generation
-- Instruction decoding
-- Hardware-software interface concepts
-- RTL simulation and debugging
-
-It serves as a foundation for more advanced designs such as multi-cycle or pipelined processors.
+This serves as a foundation for more advanced designs such as multi-cycle or pipelined processors.
